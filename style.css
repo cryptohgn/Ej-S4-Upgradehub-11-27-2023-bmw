@@ -1,0 +1,362 @@
+/*Portada*/
+*{
+    margin:0;
+    padding: 0;
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+width: 100vw;
+height: 100vh;
+background-image: url(assets/img/coche-bmw.jpg);
+/*background-color: #1C69D5;*/
+background-size: cover;
+background-position: top;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.anchors {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15%;
+    font-family:"Arial", Helvetica, Roboto, sans-serif;
+}
+.icons {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding:5px 0;
+}
+
+.icons li {
+    padding: 10px;
+    width:45px;
+}
+
+.icons li img {
+    width: 100%;   
+}
+
+.logo-img {
+    width: 87px !important;
+    object-fit:cover;
+    
+}
+.line{
+    position: absolute;
+    top: 10.5%;
+    left: 17%;
+    height: 1px;
+    width: 60%;
+    background-color: white;
+}
+
+.slogan {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    height: 100px;
+    width: 58%;
+    font-family:"Arial", Helvetica, Roboto, sans-serif;
+    color: white;
+}
+
+.slogan h1 {
+    font-size: 2.5em;
+}
+
+.slogan h3 {
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+.btn-blue {
+    padding: 1.2em 7.5em;
+    background-color:#1C69D5;
+    border-radius: 2px;
+    font-size: 1em;
+    font-weight: 600;
+    color: white; 
+    border: none;
+}
+/*Pagina 1*/
+
+.pagina1 {
+        width: 100vw;
+        height: 75vh;
+}
+
+.pagina1__container {
+    width:75%;
+    height:75%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.pagina1__container__series {
+    height: 4%;
+    padding: 10px 0;
+    width: 4%;
+    border-bottom: 2px solid #c4c4c4;
+
+}
+.pagina1__container__series--h1{
+    color: grey;
+    font-size: 1em;
+    font-family:"Arial", Helvetica, Roboto, sans-serif;
+    font-weight: 600;
+}
+
+/*Pagina 1 Nav*/
+.pagina1__container__nav{
+    width: 90%;
+    height: 10%;    
+}
+
+.catCars {
+    width: 98.2%;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 10px;
+}
+
+.catCars ul li {
+    width: 100%; 
+}
+
+.catActive {
+    font-family:"Arial", Helvetica, Roboto, sans-serif;
+    color: black !important;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0 10px 30px 10px; 
+    border-bottom: 2px solid #1C69D5;
+}
+
+.inActive {
+    font-family:"Arial", Helvetica, Roboto, sans-serif;
+    color: grey !important;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0px 10px; 
+    
+}
+/*Pagina 1 Cards*/
+
+.pagina1__container__catalogo {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+.pagina1__container__catalogo__carCard {
+    width:calc(73.5vw/4);
+    max-width:255px;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.pagina1__container__catalogo__carCard--carTitle{
+    margin-bottom: 15px; 
+}
+
+.pagina1__container__catalogo__carCard--carTitle h4 {
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.price {
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-size: 0.6em;
+    color: grey;
+    font-weight: bolder;
+}
+.priceInfo {
+    font-size: 0.6em;
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-weight: 500;
+    background-color: #c4c4c4 ;
+    color: grey;
+    padding: 0 4px;
+    margin: 0 5px;
+    border-radius: 30px;
+
+}
+.pagina1__container__catalogo__carCard--acctionLinks {
+    font-size: 0.6em;
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.pagina1__container__catalogo__carCard--acctionLinks a {
+    display: block;
+    color: black !important;
+}
+.flecha {
+    font-size: 0.6em;
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-weight: 500;
+    color: grey;
+
+}
+/*Pagina 2 Publi*/
+
+.pagina2 {
+    width: 100vw;
+    height: 100vh;
+}
+.pagina2__container {
+    width:75%;
+    height:100%;
+    margin: auto;
+    display: block;
+}
+.pagina2__container__calls {
+    width:100%;
+    height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.pagina2__container__calls__card {
+width:25%;
+    max-width:275px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    overflow: auto;
+}
+
+.calls__cards--titles{
+ width: 80%;
+ margin-bottom: 10px;
+}
+
+.calls__cards--titles h3 {
+        font-family:"Verdana", Helvetica, Roboto, sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-bottom:5px;
+        
+}
+
+.calls__cards--titles p {
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+}
+
+.pagina2__container__calls__card a {
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-size: 0.6em;
+    color: black;
+
+}
+/*Pagina 2 - videos*/
+
+.pagina2__container__videos {
+    width:100%;
+    height:500px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+}
+.pagina2__container__video{
+    width:100%;
+    max-width:590px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    
+}
+.pagina2__container__video h3 {
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom:5px;
+}
+
+.pagina2__container__video a {
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-size: 0.6em;
+    color: black;
+}
+.pagina2__container__icons {
+    display: flex;
+    width: 75%;
+    
+}
+
+.pagina2__container__icons__card {
+    width: 20.5%;
+    height:250px;
+    background-color: #c2c2c2;
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+    margin-bottom: 75px;
+}
+
+.car-icons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family:"Verdana", Helvetica, Roboto, sans-serif;
+  font-size: 0.75em;
+}
+
+/*footer*/
+footer {
+    margin-top: 400px;
+}
+.footer-container{
+    width: 90%;
+    background-color: #c4c4c4;
+    margin: auto;
+}
+
+.footer-vertical-menus{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer-vertical-menu{
+    width: 25%;
+    font-family:"Verdana", Helvetica, Roboto, sans-serif;
+    font-size: 1em;
+    color: rgb(76, 76, 76);
+    margin: 75px 20px;
+}
+
+.footer-vertical-menu h3{
+    margin-bottom: 15px;
+}
+.footer-credits{
+    background-color: white !important;
+    padding: 20px 100px;
+    display: flex;
+    width: 75%;
+}
